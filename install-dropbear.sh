@@ -16,6 +16,7 @@ echo "================================================="
 echo "" 
 echo "Dang cap nhat tai nguyen..."
 apt-get update  > /dev/null 2>&1
+echo ""
 echo "Bat dau cai dat Dropbear"
 echo ""
 apt-get -y install dropbear nano ssh
@@ -27,6 +28,12 @@ sed -i 's/#PermitRootLogin no/PermitRootLogin yes/g' /etc/ssh/sshd_config
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
 service dropbear start
 service sshd restart
+echo ""
+echo ""
 echo "Da hoan thanh cai dat Dropbear"
 echo "Dropbear dang chay tren port: 442, 80, 8080, 8484, 143, 109"
 echo "Hay tao 1 user moi de su dung"
+echo ""
+echo "Dang khoi dong lai server..."
+echo ""
+sleep 5 ; reboot
