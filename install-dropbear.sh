@@ -19,7 +19,6 @@ apt-get update  > /dev/null 2>&1
 echo ""
 echo "Bat dau cai dat Dropbear"
 echo ""
-apt-get -y remove dropbear
 apt-get -y install dropbear ssh
 sed -i 's/NO_START\=1/NO_START\=0/g' /etc/default/dropbear
 sed -i 's/DROPBEAR_PORT\=22/DROPBEAR_PORT\=442/g' /etc/default/dropbear
