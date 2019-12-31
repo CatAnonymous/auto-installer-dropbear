@@ -1,9 +1,3 @@
-#! /bin/bash
-#
-# Coded by Khai Phan
-#
-# Email: khaiphan9x@gmail.com
-#
 # Auto installer script for 
 # dropbear
 #
