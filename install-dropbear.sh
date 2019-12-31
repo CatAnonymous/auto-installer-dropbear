@@ -1,9 +1,3 @@
-#! /bin/bash
-#
-# Coded by Khai Phan
-#
-# Email: khaiphan9x@gmail.com
-#
 # Auto installer script for 
 # dropbear
 #
@@ -30,7 +24,7 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_
 service dropbear start
 service sshd restart
 echo ""
-echo ""
+echo ""0
 echo "Da hoan thanh cai dat Dropbear"
 echo "Dropbear dang chay tren port: 442, 80, 8080, 8484, 143, 109"
 echo "Hay tao 1 user moi de su dung"
