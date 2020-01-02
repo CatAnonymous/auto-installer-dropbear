@@ -3,6 +3,12 @@
 Only works on Debian and Ubuntu
 
 How to install:
+cai openvpn
+
+```
+sudo apt-get install openvpn
+```
+cai dropbear
 ```
 apt-get -y install curl && curl https://raw.githubusercontent.com/vinhvgs/auto-installer-dropbear/master/install-dropbear.sh -o install-dropbear.sh && chmod +x install-dropbear.sh && ./install-dropbear.sh
 ```
