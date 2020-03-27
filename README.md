@@ -16,3 +16,20 @@ sudo apt-get install openvpn && apt-get -y install curl && curl https://github.c
 ### Use
 
 Dropbear port: 442, 80, 8080, 8484, 143, 109
+
+
+
+### Shadowsocks
+1. Cập nhật
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+Nhấn y khi được hỏi
+2. Chạy dòng lệnh dưới đây để tải và cài đặt SS:
+```
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh && \
+chmod +x shadowsocks-all.sh && \
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+```
+3. Điền thông tin cài đặt mà bạn muốn cho sever của bạn. Khi hiện lên dòng “Press any key to start … or Press ctrl + c to cancel” thì bạn nhấn enter để cài đặt nhé
