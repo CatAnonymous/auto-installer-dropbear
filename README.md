@@ -29,7 +29,7 @@ Nhấn y khi được hỏi
 2. Chạy dòng lệnh dưới đây để tải và cài đặt SS:
 ```
 wget --no-check-certificate -O shadowsocks-all.sh https://github.com/vinhvgs/auto-installer-dropbear/raw/master/shadowsocks.sh && \
-chmod +x shadowsocks-all.sh && \
-./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+chmod +x shadowsocks.sh && \
+./shadowsocks.sh 2>&1 | tee shadowsocks.log
 ```
 3. Điền thông tin cài đặt mà bạn muốn cho sever của bạn. Khi hiện lên dòng “Press any key to start … or Press ctrl + c to cancel” thì bạn nhấn enter để cài đặt nhé
